@@ -100,10 +100,11 @@ body{
 	text-align: center;
 	margin-bottom: 80px;
 	text-transform: uppercase;
-	color: #ffffff;
-	border: 6px solid #FFFFFF;
+	color: #C6A57A;
+	border: 6px solid #C6A57A;
 	padding: 5px 10px;
-	margin-left: 290px
+	margin-left: 250px;
+	margin-top: 50px;
 } 
 
 /* Footer */
@@ -249,7 +250,6 @@ text-decoration: none
 .list__show{
     width: 95%;
     margin-left: auto;
-    /* border-left: 2px solid #fff; */
 	border-radius: 6px;
     list-style: none;
     transition: height .4s;
@@ -258,12 +258,56 @@ text-decoration: none
 }
 
 .list__img{
-	width: 15px;
-	height: 15px;
+	width: 20px;
+	height: 20px;
 }
 
 /* Main */
 
 .typeMain {
 	height: 600px;
+}
+
+/* Header */
+
+.headerDiv{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.name {
+	padding-left: 15px;
+	color: #fff;
+	text-decoration: none;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 65px;
+}
+
+.nameLogo{
+	padding-top: 10px;
+	height: 90px;
+	width: 90px;
+	padding-left: 3px;
+}
+
+.headerSocial{
+	margin-top: 50px;
+	margin-left: 830px
+}
+
+.anclaSocial{
+	color: #fff;
+	text-decoration: none;
+	font-size:35px;
+}
+
+.anclaSocial:hover {
+	color: #fff; 
+	text-decoration: none 
+}
+
+.anclaSocial:visited {
+	color: #fff;
+	text-decoration: none 
 }
