@@ -1,0 +1,325 @@
+/* HADA */
+
+.boton.hada::after{
+	content: "";
+	width: 130%;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 100px solid #fb89eb;
+	border-right: 100px solid transparent;
+	transition: .5s ease-in-out all;
+}
+
+.boton.hada:hover::after{
+	left: 0;
+}
+
+/* ACERO */
+
+.boton.acero::after{
+	content: "";
+	width: 130%;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 100px solid #5a8ea2;
+	border-right: 100px solid transparent;
+	transition: .5s ease-in-out all;
+}
+
+.boton.acero:hover::after{
+	left: 0;
+}
+
+/* SINIESTRO */
+
+.boton.siniestro::after{
+	content: "";
+	width: 130%;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 100px solid #534c5e;
+	border-right: 100px solid transparent;
+	transition: .5s ease-in-out all;
+}
+
+.boton.siniestro:hover::after{
+	left: 0;
+}
+
+/* DRAGON */
+
+.boton.dragon::after{
+	content: "";
+	width: 130%;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 100px solid #006fc9;
+	border-right: 100px solid transparent;
+	transition: .5s ease-in-out all;
+}
+
+.boton.dragon:hover::after{
+	left: 0;
+}
+
+/* FANTASMA */
+
+.boton.fantasma::after{
+	content: "";
+	width: 130%;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 100px solid #4d6ab2;
+	border-right: 100px solid transparent;
+	transition: .5s ease-in-out all;
+}
+
+.boton.fantasma:hover::after{
+	left: 0;
+}
+
+/* ROCA */
+
+.boton.roca::after{
+	content: "";
+	width: 130%;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 100px solid #c8b686;
+	border-right: 100px solid transparent;
+	transition: .5s ease-in-out all;
+}
+
+.boton.roca:hover::after{
+	left: 0;
+}
+
+/* BICHO */
+
+.boton.bicho::after{
+	content: "";
+	width: 130%;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 100px solid #83c300;
+	border-right: 100px solid transparent;
+	transition: .5s ease-in-out all;
+}
+
+.boton.bicho:hover::after{
+	left: 0;
+}
+
+/* PSIQUICO */
+
+.boton.psiquico::after{
+	content: "";
+	width: 130%;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 100px solid #ff6675;
+	border-right: 100px solid transparent;
+	transition: .5s ease-in-out all;
+}
+
+.boton.psiquico:hover::after{
+	left: 0;
+}
+
+/* VOLADOR */
+
+.boton.volador::after{
+	content: "";
+	width: 130%;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 100px solid #89aae3;
+	border-right: 100px solid transparent;
+	transition: .5s ease-in-out all;
+}
+
+.boton.volador:hover::after{
+	left: 0;
+}
+
+/* TIERRA */
+
+.boton.tierra::after{
+	content: "";
+	width: 130%;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 100px solid #e87236;
+	border-right: 100px solid transparent;
+	transition: .5s ease-in-out all;
+}
+
+.boton.tierra:hover::after{
+	left: 0;
+}
+
+/* VENENO */
+
+.boton.veneno::after{
+	content: "";
+	width: 130%;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 100px solid #b362cc;
+	border-right: 100px solid transparent;
+	transition: .5s ease-in-out all;
+}
+
+.boton.veneno:hover::after{
+	left: 0;
+}
+
+/* LUCHA */
+
+.boton.lucha::after{
+	content: "";
+	width: 130%;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 100px solid #e0306a;
+	border-right: 100px solid transparent;
+	transition: .5s ease-in-out all;
+}
+
+.boton.lucha:hover::after{
+	left: 0;
+}
+
+/* HIELO */
+
+.boton.hielo::after{
+	content: "";
+	width: 130%;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 100px solid #49d0bf;
+	border-right: 100px solid transparent;
+	transition: .5s ease-in-out all;
+}
+
+.boton.hielo:hover::after{
+	left: 0;
+}
+
+/* PLANTA */
+
+.boton.planta::after{
+	content: "";
+	width: 130%;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 100px solid #38bf4b;
+	border-right: 100px solid transparent;
+	transition: .5s ease-in-out all;
+}
+
+.boton.planta:hover::after{
+	left: 0;
+}
+
+/* ELECTRICO */
+
+.boton.electrico::after{
+	content: "";
+	color: #ffffff;
+	width: 130%;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 100px solid #fbd100;
+	border-right: 100px solid transparent;
+	transition: .5s ease-in-out all;
+}
+
+.boton.electrico:hover::after{
+	left: 0;
+}
+
+/* AGUA */
+
+.boton.agua::after{
+	content: "";
+	width: 130%;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 100px solid #3692dc;
+	border-right: 100px solid transparent;
+	transition: .5s ease-in-out all;
+}
+
+.boton.agua:hover::after{
+	left: 0;
+}
+
+/* FUEGO */
+
+.boton.fuego::after{
+	content: "";
+	width: 130%;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 100px solid #ff9843;
+	border-right: 100px solid transparent;
+	transition: .5s ease-in-out all;
+}
+
+.boton.fuego:hover::after{
+	left: 0;
+}
+
+/* NORMAL */
+
+.boton.normal::after{
+	content: "";
+	width: 130%;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 100px solid #636466;
+	border-right: 100px solid transparent;
+	transition: .5s ease-in-out all;
+}
+
+.boton.normal:hover::after{
+	left: 0;
+}
+

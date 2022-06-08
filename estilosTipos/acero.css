@@ -1,0 +1,48 @@
+.headerPoke{
+    background-color: #b7bab7 ;
+}
+
+.name{
+    color: #e43509;
+}
+
+.tituloMain{
+    color: #edd46c  ;
+}
+
+.ancla:hover {
+	color: #e43509; 
+
+}
+
+.ancla:visited {
+	color: #e43509;
+}
+
+.anclaSocial{
+    color: #e43509;
+}
+
+.anclaSocial:hover {
+	color: #e43509;  
+}
+
+.anclaSocial:visited {
+	color: #e43509;
+}
+
+.footerPoke{
+    background-color:#b7bab7 
+}
+
+.anclaNext{
+    color: #e43509;
+}
+
+.anclaNext:hover {
+	color: #e43509; 
+}
+
+.anclaNext:visited {
+	color: #e43509;
+}

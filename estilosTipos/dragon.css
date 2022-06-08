@@ -1,0 +1,52 @@
+.headerPoke{
+    background-color: #f01068  ;
+}
+
+.name{
+    color: #0c0624  ;
+}
+
+.tituloMain{
+    color: #efb862  ;
+}
+
+.ancla:hover {
+	color: #0c0624 ; 
+
+}
+
+.ancla:visited {
+	color: #0c0624 ;
+}
+
+.anclaSocial{
+    color: #0c0624 ;
+}
+
+.anclaSocial:hover {
+	color: #0c0624 ;  
+}
+
+.anclaSocial:visited {
+	color: #0c0624 ;
+}
+
+.footerPoke{
+    background-color:#f01068 
+}
+
+.anclaNext{
+    color: #0c0624 ;
+}
+
+.anclaNext:hover {
+	color: #0c0624 ; 
+}
+
+.anclaNext:visited {
+	color: #0c0624 ;
+}
+
+.dragonFix {
+    height: 200px;
+}

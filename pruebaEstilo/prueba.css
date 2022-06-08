@@ -1,0 +1,269 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* Grid Template */
+
+#grilla {
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "nav main main"
+    "nav main main"
+    "footer footer footer";
+    grid-template-rows: 100px 1fr 1fr 75px;
+    grid-template-columns: 20% auto 15%;
+	
+}
+
+.typeMenu {
+    border: 1px solid #41484d;
+	background-color: #333a3f;
+}
+
+header{
+    grid-area: header;
+}
+
+footer{
+    grid-area: footer;
+}
+
+section#main{
+    grid-area: main;
+}
+
+nav {
+    grid-area: nav;
+}
+
+/* Botones */
+
+.contenedor-botones{
+	width: 200px;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 10px;
+}
+
+.boton{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 95%;
+	height: 50px;
+	background: #141414;
+	color: #fff;
+	font-family: 'Roboto' , sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: .3s ease all;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.boton span{
+	position: relative;
+	z-index: 200;
+	transition: .3s ease all;
+} 
+
+.contenedor{
+	margin: auto;
+	padding: 20px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+/* Estilos */
+
+body{
+	background-image:url(../img/wllp/indexBack.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.title{
+	display: flex;
+	font-size: 58px;
+	width: 490px;
+	text-align: center;
+	margin-bottom: 80px;
+	text-transform: uppercase;
+	color: #ffffff;
+	border: 6px solid #FFFFFF;
+	padding: 5px 10px;
+	margin-left: 290px
+} 
+
+/* Footer */
+
+.typeFooter {
+    border: 1px solid #41484d;
+	background-color: transparent;
+	margin-top: auto;
+}
+
+.footerDiv{
+	display:flex;
+	justify-content: center;
+}
+
+.footerDiv-One{
+
+}
+
+.footerDiv-Two{
+
+}
+
+.footerDiv-Three{
+ 
+}
+
+.footerDiv-ImgOne{
+
+}
+
+.footerDiv-ImgTwo{
+
+}
+
+.footerPoke{
+	background-color: rgb(245, 245, 220);
+	font-size: 25px;
+	height: 80px;
+	width: 1349px;
+	margin-top: 30px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.footerImg {
+	width:40px;
+	height: 40px;
+}
+
+.ancla{
+	color: black;
+text-decoration: none;
+
+}
+
+.ancla:hover {
+color: black; 
+text-decoration: none 
+}
+
+.ancla:visited {
+color: black;
+text-decoration: none 
+}
+
+.anclaNext{
+	color: black;
+text-decoration: none;
+
+}
+
+.anclaNext:hover {
+color: currentColor; 
+text-decoration: none 
+}
+
+.anclaNext:visited {
+color:currentColor;
+text-decoration: none 
+}
+
+/* Menu Desplegable */
+
+.nav{
+}
+
+.nav__link{
+    color: #fff;
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+.nav__link--inside{
+    border-radius: 6px ;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.nav__link--inside:hover{
+    background: #F6F8FA;
+}
+
+.list{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 16px 16px 0;
+    background: transparent;
+}
+
+.list__item{
+    list-style: none;
+    width: 95%;
+    text-align: center;
+    overflow: hidden;
+	background-color: #282d31;
+	border-left: 2px solid #fff ;
+}
+
+.list__item--click{
+    cursor: pointer;
+}
+
+.list__button{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: 80% ;
+    margin: 0 auto;
+}
+
+.arrow .list__arrow{
+    transform: rotate(90deg);
+}
+
+.list__arrow{
+    margin-left: auto;
+    transition: transform .3s;
+}
+
+.list__show{
+    width: 95%;
+    margin-left: auto;
+    /* border-left: 2px solid #fff; */
+	border-radius: 6px;
+    list-style: none;
+    transition: height .4s;
+    height: 0;
+	background-color: #282d31
+}
+
+.list__img{
+	width: 15px;
+	height: 15px;
+}
+
+/* Main */
+
+.typeMain {
+	height: 600px;
+}
