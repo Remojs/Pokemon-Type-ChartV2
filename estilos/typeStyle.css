@@ -33,17 +33,29 @@ html, body {
         background-color: rgb(24, 23, 23, 0.9);
         text-align: center;
         width: 1000px;
-        height: 350px;
+        height: auto;
+        min-height: 100px;
         margin-left: 175px;
+        margin-top: 40px;
+        padding-bottom: 5px;
+        padding-top: 5px;
 }
 
-.mainDivInm{
-        background-color: rgb(24, 23, 23, 0.9);
-        text-align: center;
-        width: 1000px;
-        height: 200px;
-        margin-left: 175px;
+.nameDiv{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        width: 300px;
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: -25px;
+        margin-left: 525px;
+        border: 2px solid #fff;
+        border-radius: 10px;
 }
+
+
 
 .tituloMain{
         color: beige;
@@ -133,6 +145,7 @@ html, body {
 .anclaType{
         text-decoration: none;
         color: currentColor;
+        
 }
 
 /* .footerMenu{

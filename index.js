@@ -1,3 +1,5 @@
+// Menu Interactivo =========================================================
+
 let listElements = document.querySelectorAll('.list__button--click');
 
 listElements.forEach(listElement => {
@@ -16,16 +18,19 @@ listElements.forEach(listElement => {
     })
 });
 
+
+// Redireccion Tipos ========================================================
+
 function hada() {
-	location.href = "paginas/hada.html";
+	location.href = "paginas/fairy.html";
 };
 
 function acero() {
-	location.href = "paginas/acero.html";
+	location.href = "paginas/steel.html";
 };
 
 function siniestro() {
-	location.href = "paginas/siniestro.html";
+	location.href = "paginas/dark.html";
 };
 
 function dragon() {
@@ -33,57 +38,76 @@ function dragon() {
 };
 
 function fantasma() {
-	location.href = "paginas/fantasma.html";
+	location.href = "paginas/ghost.html";
 };
 
 function roca() {
-	location.href = "paginas/roca.html";
+	location.href = "paginas/rock.html";
 };
 
 function bicho() {
-	location.href = "paginas/bicho.html";
+	location.href = "paginas/bug.html";
 };
 
 function psiquico() {
-	location.href = "paginas/psiquico.html";
+	location.href = "paginas/psychic.html";
 };
 
 function volador() {
-	location.href = "paginas/volador.html";
+	location.href = "paginas/fly.html";
 };
 
 function tierra() {
-	location.href = "paginas/tierra.html";
+	location.href = "paginas/ground.html";
 };
 
 function veneno() {
-	location.href = "paginas/veneno.html";
+	location.href = "paginas/poison.html";
 };
 
 function lucha() {
-	location.href = "paginas/lucha.html";
+	location.href = "paginas/fight.html";
 };
 
 function hielo() {
-	location.href = "paginas/hielo.html";
+	location.href = "paginas/ice.html";
 };
 
 function planta() {
-	location.href = "paginas/planta.html";
+	location.href = "paginas/grass.html";
 };
 
 function electrico() {
-	location.href = "paginas/electrico.html";
+	location.href = "paginas/electric.html";
 };
 
 function agua() {
-	location.href = "paginas/agua.html";
+	location.href = "paginas/water.html";
 };
 
 function fuego() {
-	location.href = "paginas/fuego.html";
+	location.href = "paginas/fire.html";
 };
 
 function normal() {
 	location.href = "paginas/normal.html";
 };
+
+// Boton Random =========================================================
+
+let pageList = [
+	'paginas/hada.html', 'paginas/acero.html', 'paginas/siniestro.html',
+	'paginas/dragon.html', 'paginas/fantasma.html', 'paginas/roca.html',
+	'paginas/bicho.html', 'paginas/psiquico.html', 'paginas/volador.html',
+	'paginas/tierra.html', 'paginas/veneno.html', 'paginas/lucha.html',
+	'paginas/hielo.html', 'paginas/planta.html', 'paginas/electrico.html',
+	'paginas/agua.html', 'paginas/fuego.html', 'paginas/normal.html',
+];
+let random = Math.floor(Math.random()*pageList.length);
+let rValue = pageList[random];
+
+function randomType() {
+	location.href = rValue
+}
+
+// ==============================================================

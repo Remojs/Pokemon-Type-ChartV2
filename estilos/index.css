@@ -68,6 +68,8 @@ nav {
 }
 
 .boton span{
+	justify-content: center;
+	align-items: center;
 	position: relative;
 	z-index: 200;
 	transition: .3s ease all;
@@ -115,76 +117,6 @@ body{
 	margin-top: auto;
 }
 
-.footerDiv{
-	display:flex;
-	justify-content: center;
-}
-
-.footerDiv-One{
-
-}
-
-.footerDiv-Two{
-
-}
-
-.footerDiv-Three{
- 
-}
-
-.footerDiv-ImgOne{
-
-}
-
-.footerDiv-ImgTwo{
-
-}
-
-.footerPoke{
-	background-color: rgb(245, 245, 220);
-	font-size: 25px;
-	height: 80px;
-	width: 1349px;
-	margin-top: 30px;
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.footerImg {
-	width:40px;
-	height: 40px;
-}
-
-.ancla{
-	color: black;
-text-decoration: none;
-
-}
-
-.ancla:hover {
-color: black; 
-text-decoration: none 
-}
-
-.ancla:visited {
-color: black;
-text-decoration: none 
-}
-
-.anclaNext{
-	color: black;
-text-decoration: none;
-
-}
-
-.anclaNext:hover {
-color: currentColor; 
-text-decoration: none 
-}
-
-.anclaNext:visited {
-color:currentColor;
-text-decoration: none 
-}
 
 /* Menu Desplegable */
 
@@ -223,7 +155,7 @@ text-decoration: none
     text-align: center;
     overflow: hidden;
 	background-color: #282d31;
-	border-left: 2px solid #fff ;
+	border-left: 2px solid rgb(255, 0, 0) ;
 }
 
 .list__item--click{
@@ -261,6 +193,12 @@ text-decoration: none
 	width: 20px;
 	height: 20px;
 }
+
+.list__border-pokedex{
+	border-left: 2px solid rgb(136, 13, 218);
+}
+
+
 
 /* Main */
 

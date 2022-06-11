@@ -1,52 +1,57 @@
 .headerPoke{
-    background-color: #f01068  ;
+    background-color: #241636  ;
+}
+
+.footerPoke{
+    background-color:#241636 ;  
 }
 
 .name{
-    color: #0c0624  ;
-}
-
-.tituloMain{
-    color: #efb862  ;
+    color: #e70e6f ;
 }
 
 .ancla:hover {
-	color: #0c0624 ; 
+	color: #e70e6f ; 
 
 }
 
 .ancla:visited {
-	color: #0c0624 ;
+	color: #e70e6f ;
 }
 
 .anclaSocial{
-    color: #0c0624 ;
+    color: #e70e6f ;
 }
 
 .anclaSocial:hover {
-	color: #0c0624 ;  
+	color: #e70e6f ;  
 }
 
 .anclaSocial:visited {
-	color: #0c0624 ;
-}
-
-.footerPoke{
-    background-color:#f01068 
+	color: #e70e6f ;
 }
 
 .anclaNext{
-    color: #0c0624 ;
+    color: #e70e6f ;
 }
 
 .anclaNext:hover {
-	color: #0c0624 ; 
+	color: #e70e6f ; 
 }
 
 .anclaNext:visited {
-	color: #0c0624 ;
+	color: #e70e6f ;
 }
 
-.dragonFix {
-    height: 200px;
+.tituloMain{
+    color: #d9c4d0 ;
+}
+
+.nameDivType{
+    color: #006fc9 ;
+}
+
+.nameDiv{
+    background-color: #241636  ;
+    border: 3px solid #006fc9 ;
 }

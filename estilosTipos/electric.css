@@ -2,12 +2,12 @@
     background-color: #49b8e7   ;
 }
 
-.name{
-    color: #f8f435   ;
+.footerPoke{
+    background-color:#49b8e7  ;  
 }
 
-.tituloMain{
-    color: #e7f1e5    ;
+.name{
+    color: #f8f435  ;
 }
 
 .ancla:hover {
@@ -31,10 +31,6 @@
 	color: #f8f435  ;
 }
 
-.footerPoke{
-    background-color:#49b8e7  
-}
-
 .anclaNext{
     color: #f8f435  ;
 }
@@ -47,10 +43,15 @@
 	color: #f8f435  ;
 }
 
-.electricFix{
-    height: 250px
+.tituloMain{
+    color: #e5efe4 ;
 }
 
-.electricFixTwo{
-    Height: 200px;
+.nameDivType{
+    color: #fbd100 ;
+}
+
+.nameDiv{
+    background-color: #49b8e7  ;
+    border: 3px solid #fbd100 ;
 }
