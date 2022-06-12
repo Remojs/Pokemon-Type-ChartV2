@@ -96,8 +96,8 @@ function normal() {
 // Boton Random =========================================================
 
 let pageList = [
-	'paginas/hada.html', 'paginas/acero.html', 'paginas/siniestro.html',
-	'paginas/dragon.html', 'paginas/fantasma.html', 'paginas/roca.html',
+	'paginas/fairy.html', 'paginas/steel.html', 'paginas/dark.html',
+	'paginas/dragon.html', 'paginas/fantasma.html', 'paginas/rock.html',
 	'paginas/bicho.html', 'paginas/psiquico.html', 'paginas/volador.html',
 	'paginas/tierra.html', 'paginas/veneno.html', 'paginas/lucha.html',
 	'paginas/hielo.html', 'paginas/planta.html', 'paginas/electrico.html',
