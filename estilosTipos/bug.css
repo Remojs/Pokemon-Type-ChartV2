@@ -2,7 +2,7 @@
     background-color: #ebcf51 ;
 }
 
-.footerPoke{
+.footer{
     background-color:#ebcf51 ;
 }
 
@@ -11,16 +11,7 @@
 }
 
 .tituloMain{
-    color: #f8fd00;
-}
-
-.ancla:hover {
-	color: #0f1113 ; 
-
-}
-
-.ancla:visited {
-	color: #0f1113 ;
+    color: #ebcf51;
 }
 
 .anclaSocial{
@@ -35,14 +26,23 @@
 	color: #0f1113 ;
 }
 
-.anclaNext{
+.footer-anchor{
     color: #0f1113 ;
 }
 
-.anclaNext:hover {
+.footer-anchor:hover {
 	color: #0f1113 ; 
 }
 
-.anclaNext:visited {
+.footer-anchor:visited {
 	color: #0f1113 ;
+}
+
+.nameDivType{
+    color: #83c300 ;
+}
+
+.nameDiv{
+    background-color: #0f1113      ;
+    border: 3px solid #83c300 ;
 }

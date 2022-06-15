@@ -1,0 +1,57 @@
+.headerPoke{
+    background-color: #d7e4e2   ;
+}
+
+.footer{
+    background-color:#d7e4e2  ;  
+}
+
+.name{
+    color: #0e0f33 ;
+}
+
+.ancla:hover {
+	color: #0e0f33 ; 
+
+}
+
+.ancla:visited {
+	color: #0e0f33 ;
+}
+
+.anclaSocial{
+    color: #0e0f33 ;
+}
+
+.anclaSocial:hover {
+	color: #0e0f33 ;  
+}
+
+.anclaSocial:visited {
+	color: #0e0f33 ;
+}
+
+.footer-anchor{
+    color: #0e0f33 ;
+}
+
+.footer-anchor:hover {
+	color: #0e0f33 ; 
+}
+
+.footer-anchor:visited {
+	color: #0e0f33 ;
+}
+
+.tituloMain{
+    color: #e0b054 ;
+}
+
+.nameDivType{
+    color: #89aae3 ;
+}
+
+.nameDiv{
+    background-color: #d7e4e2   ;
+    border: 3px solid #89aae3 ;
+}

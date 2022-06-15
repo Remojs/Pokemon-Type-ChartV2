@@ -46,3 +46,12 @@
 .anclaNext:visited {
 	color: #e43509;
 }
+
+.nameDivType{
+    color: #5a8ea2 ;
+}
+
+.nameDiv{
+    background-color: #b7bab7   ;
+    border: 3px solid #5a8ea2 ;
+}
