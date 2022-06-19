@@ -97,11 +97,11 @@ function normal() {
 
 let pageList = [
 	'paginas/fairy.html', 'paginas/steel.html', 'paginas/dark.html',
-	'paginas/dragon.html', 'paginas/fantasma.html', 'paginas/rock.html',
-	'paginas/bicho.html', 'paginas/psiquico.html', 'paginas/volador.html',
-	'paginas/tierra.html', 'paginas/veneno.html', 'paginas/lucha.html',
-	'paginas/hielo.html', 'paginas/planta.html', 'paginas/electrico.html',
-	'paginas/agua.html', 'paginas/fuego.html', 'paginas/normal.html',
+	'paginas/dragon.html', 'paginas/ghost.html', 'paginas/rock.html',
+	'paginas/bug.html', 'paginas/psychic.html', 'paginas/fly.html',
+	'paginas/ground.html', 'paginas/poison.html', 'paginas/fight.html',
+	'paginas/ice.html', 'paginas/grass.html', 'paginas/electric.html',
+	'paginas/water.html', 'paginas/fire.html', 'paginas/normal.html',
 ];
 let random = Math.floor(Math.random()*pageList.length);
 let rValue = pageList[random];

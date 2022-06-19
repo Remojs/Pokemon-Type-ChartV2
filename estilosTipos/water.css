@@ -1,3 +1,7 @@
+footer-anchor.headerPoke{
+    background-color: #e1e6e1 ;
+}
+
 .headerPoke{
     background-color: #e1e6e1 ;
 }
@@ -31,19 +35,19 @@
 	color: #73b6d3;
 }
 
-.footerPoke{
+.footer{
     background-color:#e1e6e1
 }
 
-.anclaNext{
+.footer-anchor{
     color: #73b6d3;
 }
 
-.anclaNext:hover {
+.footer-anchor:hover {
 	color: #73b6d3; 
 }
 
-.anclaNext:visited {
+.footer-anchor:visited {
 	color: #73b6d3;
 }
 
@@ -54,4 +58,12 @@
 .nameDiv{
     background-color: #e1e6e1 ;
     border: 3px solid #3692dc ;
+}
+
+.footer-nt{
+    border-right: 3px solid #73b6d3 ;
+}
+
+.footer-pv{
+    border-left: 3px solid  #73b6d3;
 }

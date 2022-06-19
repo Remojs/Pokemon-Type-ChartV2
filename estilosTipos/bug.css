@@ -46,3 +46,11 @@
     background-color: #0f1113      ;
     border: 3px solid #83c300 ;
 }
+
+.footer-nt{
+    border-right: 3px solid #0f1113 ;
+}
+
+.footer-pv{
+    border-left: 3px solid #0f1113 ;
+}

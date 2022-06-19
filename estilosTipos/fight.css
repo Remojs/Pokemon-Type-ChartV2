@@ -56,3 +56,11 @@
 .tituloMain{
     color: #27c6f4      ;
 }
+
+.footer-nt{
+    border-right: 3px solid  #162555;
+}
+
+.footer-pv{
+    border-left: 3px solid  #162555;
+}

@@ -55,3 +55,11 @@
     background-color: #d7e4e2   ;
     border: 3px solid #89aae3 ;
 }
+
+.footer-nt{
+    border-right: 3px solid  #0e0f33;
+}
+
+.footer-pv{
+    border-left: 3px solid #0e0f33 ;
+}

@@ -2,7 +2,7 @@
     background-color: #d1e2f3   ;
 }
 
-.footerPoke{
+.footer{
     background-color:#d1e2f3  ;  
 }
 
@@ -31,15 +31,15 @@
 	color: #0d3f44  ;
 }
 
-.anclaNext{
+.footer-anchor{
     color: #0d3f44  ;
 }
 
-.anclaNext:hover {
+.footer-anchor:hover {
 	color: #0d3f44  ; 
 }
 
-.anclaNext:visited {
+.footer-anchor:visited {
 	color: #0d3f44  ;
 }
 
@@ -54,4 +54,12 @@
 .nameDiv{
     background-color: #d1e2f3    ;
     border: 3px solid #49d0bf ;
+}
+
+.footer-nt{
+    border-right: 3px solid  #0d3f44;
+}
+
+.footer-pv{
+    border-left: 3px solid  #0d3f44;
 }
