@@ -93,6 +93,10 @@ function normal() {
 	location.href = "paginas/normal.html";
 };
 
+function kanto() {
+	location.href = "pokedex-pages/kanto.html";
+};
+
 // Boton Random =========================================================
 
 let pageList = [

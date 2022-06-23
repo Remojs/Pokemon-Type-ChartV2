@@ -323,3 +323,27 @@
 	left: 0;
 }
 
+/* KANTO */
+
+
+.boton.kanto::after{
+	content: "";
+	width: 130%;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 100px solid rgb(237, 230, 28);
+	border-right: 100px solid transparent;
+	transition: .5s ease-in-out all;
+}
+
+.boton.kanto:hover::after{
+	left: 0;
+	color: #000;
+}
+
+.boton.kanto:hover{
+	left: 0;
+	color: #000;
+}

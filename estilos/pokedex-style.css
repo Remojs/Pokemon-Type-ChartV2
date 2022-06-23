@@ -1,0 +1,80 @@
+::-webkit-scrollbar {
+	display: none;
+}
+
+body{
+    background-image: url(../img/pokedex/wallp.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        padding: 0.1px;
+}
+
+.nav-pokedex{
+    height: 100px;
+    width: max-content;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    padding-left: 800px;
+    
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+}
+
+.imgHeader{
+    width: 60px;
+    height: 60px;
+}
+
+.pokedex-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(38, 1fr);
+}
+
+.main-pokedex{
+    list-style: none;
+}
+
+.pokedex-box{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid black;
+    margin: 20px 12px 20px 12px;
+    font-family: 'Staatliches', cursive;
+    background-color: rgb(255, 255, 255,0.9);
+    border-radius: 10%;
+}
+
+.pokedex-box:hover{
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+a:hover {
+	color: black; 
+	text-decoration: none 
+}
+
+a:visited {
+	color: black;
+	text-decoration: none 
+}
