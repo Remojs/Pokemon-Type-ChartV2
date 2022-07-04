@@ -1,3 +1,8 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 ::-webkit-scrollbar {
 	display: none;
 }
@@ -10,35 +15,136 @@ body{
         padding: 0.1px;
 }
 
-.nav-pokedex{
-    height: 100px;
-    width: max-content;
-}
-
-.header {
-    display: flex;
-    flex-direction: row;
-}
-
-.menu{
-    padding-left: 800px;
+:root{
     
+    --main-color: #c01e2e;
+    --main-color2: #000000;
+    --main-color3: #ffffff;
 }
 
-.name {
+/* --- HEADER --- */
+
+
+.header-container{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.name-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.name{
+    padding-left: 15px;
+	text-decoration: none;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 55px;
+    color: var(--main-color3);
 }
 
 .imgHeader{
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 85px;
+    padding-bottom: 2px;
+    padding-left: 2px;
 }
+
+.header-pokedex{
+    background-color: var(--main-color2);
+}
+
+
+
+
+/* --- MENU DROPDOWN --- */
+
+
+.menu-options{
+    text-decoration: none;
+    list-style: none;
+    color: var(--main-color); 
+    cursor: pointer;
+    padding: 10px -20px;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+    font-family: 'Staatliches', cursive;
+}
+
+
+.menu-bgd{
+    background-color: var(--main-color2);
+    padding: 6px 30px 6px 30px;
+    margin-right: 10px;
+}
+
+.menu-items{
+    text-decoration: none;
+    list-style: none;
+    color: var(--main-color3); 
+    background-color: var(--main-color2);
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.menu-items:hover{
+    background-color: var(--main-color);
+}
+
+.contmenu{
+    display:none;
+    position: absolute;
+    min-width: 100px;
+}
+
+.cm-pokedex{
+    margin-left: 18px;
+}
+
+
+.header-div li:hover > ul{
+    display: block;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.menu-anchor{
+    color: currentColor;
+    text-decoration: none;
+}
+
+.menu-anchor:hover{
+    color: currentColor;
+    text-decoration: none;
+}
+
+.menu-anchor:visited{
+    color: currentColor;
+    text-decoration: none;
+}
+
+.menu-bgd:hover{
+    background-color: var(--main-color2);
+}
+
+
+/* --- MAIN POKEMON CONTAINERS --- */
+
+
 
 .pokedex-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(38, 1fr);
+    margin-right:10px;
+    margin-left: 3px;
 }
 
 .main-pokedex{
@@ -51,8 +157,8 @@ body{
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    border: 2px solid black;
-    margin: 20px 12px 20px 12px;
+    border: 2px solid rgb(0, 0, 0, 0.5);
+    margin: 20px 14px 20px 12px;
     font-family: 'Staatliches', cursive;
     background-color: rgb(255, 255, 255,0.9);
     border-radius: 10%;
@@ -63,18 +169,19 @@ body{
     transition: 0.3s;
 }
 
-a{
+main div a{
     text-decoration: none;
-    color: black;
+    color: var(--main-color2);
     font-size: 20px;
 
 }
-a:hover {
-	color: black; 
+main div a:hover {
+	color: var(--main-color2); 
 	text-decoration: none 
 }
 
-a:visited {
-	color: black;
+main div a:visited {
+	color: var(--main-color2);
 	text-decoration: none 
 }
+

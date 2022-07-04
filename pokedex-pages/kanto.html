@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="../estilos/pokedex-style.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../img/icons/pd.png">
+    <script src="https://kit.fontawesome.com/11ca777f0d.js" crossorigin="anonymous"></script>
 
     <title> Kanto | Pokédex </title>
 
@@ -14,663 +17,706 @@
 <body>
     
     <header class="header-pokedex">
-        <div class="header">
-            <div class="name">
+        <div class="header-container">        
+            <div class="name-container">
                 <h2 class="name"> REMO CODE </h2>
-                <img src="../img/RcIcons/RC.png" class="imgHeader"> 
+                <img src="../img/RcIcons/rcbl.png" class="imgHeader"> 
             </div>
-            <div class="menu">
-                <a href="" class="pokedex-anchor"> Menu </a>
-                <a href="" class="pokedex-anchor"> Back << </a>
-                <div class="social">
-                    <a href="https://twitter.com/pateachapas" class="fab fa-twitter anclaSocial"> </a>
-                    <a href="https://www.instagram.com/zambo_thiago/?hl=es" class="fab fa-instagram anclaSocial"> </a>
-                    <a href="https://github.com/Remojs" class="fab fa-github anclaSocial" > </a>
-                </div>
+
+        <div class="header-div">
+            <ul class="header-menu">
+                
+                    <li class="menu-options"> <a href="../index.html" class="menu-anchor menu-bgd"> Home </a> </li>
+                    <li class="menu-options"> <a href="#" class="menu-anchor menu-bgd"> Types </a>
+                        <ul class="contmenu cm-types">
+                            <li class="menu-items hada">      <a href="../paginas/fairy.html" class="menu-anchor">  FAIRY  </a>     <img src="../img/iconType/fairy.png" class="menu-types-icon" alt="" >      </li>
+                            <li class="menu-items acero">     <a href="../paginas/steel.html" class="menu-anchor">  STEEL  </a>     <img src="../img/iconType/steel.png" class="menu-types-icon" alt="" >      </li>
+                            <li class="menu-items siniestro"> <a href="../paginas/dark.html" class="menu-anchor">   DARK   </a>     <img src="../img/iconType/dark.png" class="menu-types-icon" alt="" >       </li>
+                            <li class="menu-items dragon">    <a href="../paginas/dragon.html" class="menu-anchor"> DRAGON </a>     <img src="../img/iconType/dragon.png" class="menu-types-icon" alt="" >     </li>
+                            <li class="menu-items fantasma">  <a href="../paginas/ghost.html" class="menu-anchor">  GHOST  </a>     <img src="../img/iconType/ghost.png" class="menu-types-icon" alt="" >      </li>
+                            <li class="menu-items roca">      <a href="../paginas/rock.html" class="menu-anchor">   ROCK   </a>     <img src="../img/iconType/rock.png" class="menu-types-icon" alt="" >       </li>
+                            <li class="menu-items bicho">     <a href="../paginas/bug.html" class="menu-anchor">    BUG    </a>     <img src="../img/iconType/bug.png" class="menu-types-icon" alt="" >        </li>
+                            <li class="menu-items psiquico">  <a href="../paginas/psychic.html" class="menu-anchor">PSYCHIC </a>    <img src="../img/iconType/psychic.png" class="menu-types-icon" alt="" >    </li>
+                            <li class="menu-items volador">   <a href="../paginas/fly.html" class="menu-anchor">    FLY    </a>     <img src="../img/iconType/fly.png" class="menu-types-icon" alt="" >        </li>
+                            <li class="menu-items tierra">    <a href="../paginas/ground.html" class="menu-anchor"> GROUND </a>     <img src="../img/iconType/ground.png" class="menu-types-icon" alt="" >     </li>
+                            <li class="menu-items veneno">    <a href="../paginas/poison.html" class="menu-anchor"> POISON </a>     <img src="../img/iconType/poison.png" class="menu-types-icon" alt="" >     </li>
+                            <li class="menu-items lucha">     <a href="../paginas/fight.html" class="menu-anchor">  FIGHT  </a>     <img src="../img/iconType/fight.png" class="menu-types-icon" alt="" >      </li>
+                            <li class="menu-items hielo">     <a href="../paginas/ice.html" class="menu-anchor">    ICE    </a>     <img src="../img/iconType/ice.png" class="menu-types-icon" alt="" >        </li>
+                            <li class="menu-items planta">    <a href="../paginas/grass.html" class="menu-anchor">  GRASS  </a>     <img src="../img/iconType/grass.png" class="menu-types-icon" alt="" >      </li>
+                            <li class="menu-items electrico"> <a href="../paginas/electric.html"class="menu-anchor">ELECTRIC</a>    <img src="../img/iconType/electric.png" class="menu-types-icon" alt="" >   </li>
+                            <li class="menu-items agua">      <a href="../paginas/water.html" class="menu-anchor">  WATER  </a>     <img src="../img/iconType/water.png" class="menu-types-icon" alt="" >      </li>
+                            <li class="menu-items fuego">     <a href="../paginas/fire.html" class="menu-anchor">   FIRE   </a>     <img src="../img/iconType/fire.png" class="menu-types-icon" alt="" >       </li>
+                            <li class="menu-items normal">    <a href="../paginas/normal.html" class="menu-anchor"> NORMAL </a>     <img src="../img/iconType/normal.png" class="menu-types-icon" alt="" >     </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-options"> <a href="#" class="menu-anchor menu-bgd"> Pokedex </a>
+                        <ul class="contmenu cm-pokedex">
+                            <li class="menu-items kanto">   <a href="../pokedex-pages/kanto.html" class="menu-anchor">  Kanto   </a></li>
+                            <li class="menu-items jhoto">   <a href="../pokedex-pages/jhoto.html" class="menu-anchor">  Jhoto   </a></li>
+                            <li class="menu-items hoenn">   <a href="../pokedex-pages/hoenn.html" class="menu-anchor">  Hoenn   </a></li>
+                            <li class="menu-items sinnoh">  <a href="../pokedex-pages/sinnoh.html" class="menu-anchor"> Sinnoh  </a></li>
+                            <li class="menu-items teselia"> <a href="../pokedex-pages/teselia.html" class="menu-anchor">Teselia </a></li>
+                            <li class="menu-items kalos">   <a href="../pokedex-pages/kalos.html" class="menu-anchor">  Kalos   </a></li>
+                            <li class="menu-items alola">   <a href="../pokedex-pages/alola.html" class="menu-anchor">  Alola   </a></li>
+                            <li class="menu-items galar">   <a href="../pokedex-pages/galar.html" class="menu-anchor">  Galar   </a></li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-options"> <a href="#" class="menu-anchor menu-bgd"> Social </a>
+                        <ul class="contmenu cm-social">
+                            <li class="menu-items"> <a href="https://twitter.com/pateachapas" class="fab fa-twitter menu-anchor twitter">                    Twitter    </a></li>
+                            <li class="menu-items"> <a href="https://www.instagram.com/zambo_thiago/?hl=es" class="fab fa-instagram menu-anchor instagram">  Instagram  </a></li>
+                            <li class="menu-items"> <a href="https://github.com/Remojs" class="fab fa-github menu-anchor github">                            Github     </a></li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-options"> <a class="menu-anchor menu-bgd"> Random </a> </li>
+                </ul>
             </div>
-        </div>   
+        </div>
     </header>
 
     <main class="main-pokedex">
         <div class="pokedex-container">
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/bulbasaur">1 - Bulbasaur</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/bulbasaur"> <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/ivysaur">2 - Ivysaur</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/ivysaur"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/venusaur">3 - Venusaur</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/003.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/venusaur"> <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/003.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/charmander">4 - Charmander</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png" alt="">
+            <a href="https://www.pokemon.com/es/pokedex/charmander"> <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/charmeleon">5 - Charmeleon</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/005.png" alt="">
+            <a href="https://www.pokemon.com/es/pokedex/charmeleon"> <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/005.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/charizard">6 - Charizard</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/charizard"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/squirtle">7 - Squirtle</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/squirtle"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/wartortle">8 - Wartortle</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/008.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/wartortle"> <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/008.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/blastoise">9 - Blastoise</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/009.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/blastoise"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/009.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/caterpie">10 - Caterpie</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/010.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/caterpie"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/010.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/metapod">11 - Metapod</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/011.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/metapod"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/011.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/butterfree">12 - Butterfree</a></li>
-                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/012.png" alt="">
+                    <a href="https://www.pokemon.com/es/pokedex/butterfree"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/012.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/weedle">13 - Weedle</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/013.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/weedle"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/013.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/kakuna">14 - Kakuna</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/014.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/kakuna"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/014.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/beedrill">15 - Beedrill</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/015.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/beedrill"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/015.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/pidgey">16 - Pidgey</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/016.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/pidgey"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/016.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/pidgeotto">17 - Pidgeotto</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/017.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/pidgeotto"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/017.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/pidgeot">18 - Pidgeot</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/018.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/pidgeot"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/018.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/rattata">19 - Rattata</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/019.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/rattata"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/019.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/raticate">20 - Raticate</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/020.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/raticate"> <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/020.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/spearow">21 - Spearow</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/021.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/spearow"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/021.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/fearow">22 - Fearow</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/022.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/fearow"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/022.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/ekans">23 - Ekans</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/023.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/ekans"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/023.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/arbok">24 - Arbok</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/024.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/arbok"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/024.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/pikachu">25 - Pikachu</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/pikachu"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/raichu">26 - Raichu</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/026.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/raichu"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/026.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/sandshrew">27 - Sandshrew</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/027.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/sandshrew"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/027.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/sandslash">28 - Sandslash</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/028.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/sandslash"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/028.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/nidoran-female">29 - Nidoran♀</a></li> 
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/029.png" alt="">   
+                <a href="https://www.pokemon.com/es/pokedex/nidoran-female"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/029.png" alt=""></a>   
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/nidorina">30 - Nidorina</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/030.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/nidorina"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/030.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/nidoqueen">31 - Nidoqueen</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/031.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/nidoqueen"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/031.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/nidoran-male">32 - Nidoran♂</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/032.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/nidoran-male"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/032.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/nidorino">33 - Nidorino</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/033.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/nidorino"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/033.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/nidoking">34 - Nidoking</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/034.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/nidoking"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/034.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/clefairy">35 - Clefairy</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/035.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/clefairy"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/035.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/clefable">36 - Clefable</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/036.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/clefable"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/036.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/vulpix">37 - Vulpix</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/vulpix"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/ninetales">38 - Ninetales</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/038.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/ninetales"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/038.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/jigglypuff">39 - Jigglypuff</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/039.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/jigglypuff"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/039.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/wigglytuff">40 - Wigglytuff</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/040.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/wigglytuff"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/040.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/zubat">41 - Zubat</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/041.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/zubat"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/041.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/golbat">42 - Golbat</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/042.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/golbat"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/042.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/oddish">43 - Oddish</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/043.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/oddish"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/043.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/gloom">44 - Gloom</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/044.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/gloom"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/044.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/vileplume">45 - Vileplume</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/045.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/vileplume"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/045.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/paras">46 - Paras</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/046.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/paras"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/046.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/parasect">47 - Parasect</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/047.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/parasect"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/047.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/venonat">48 - Venonat</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/048.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/venonat"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/048.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/venomoth">49 - Venomoth</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/049.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/venomoth"> <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/049.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/diglett">50 - Diglett</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/050.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/diglett"> <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/050.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/dugtrio">51 - Dugtrio</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/051.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/dugtrio"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/051.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="ttps://www.pokemon.com/es/pokedex/meowth">52 - Meowth</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/052.png" alt="">
+                <a href="ttps://www.pokemon.com/es/pokedex/meowth"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/052.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="ttps://www.pokemon.com/es/pokedex/persian">53 - Persian</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/053.png" alt="">
+                <a href="ttps://www.pokemon.com/es/pokedex/persian"> <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/053.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/psyduck">54 - Psyduck</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/054.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/psyduck"> <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/054.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/golduck">55 - Golduck</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/055.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/golduck"> <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/055.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/mankey">56 - Mankey</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/056.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/mankey"> <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/056.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/primeape">57 - Primeape</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/057.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/primeape"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/057.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/growlithe">58 - Growlithe</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/058.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/growlithe"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/058.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/arcanine">59 - Arcanine</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/059.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/arcanine"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/059.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/poliwag">60 - Poliwag</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/060.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/poliwag"> <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/060.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/poliwhirl">61 - Poliwhirl</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/061.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/poliwhirl"> <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/061.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/poliwrath">62 - Poliwrath</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/062.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/poliwrath"> <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/062.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/abra">63 - Abra</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/063.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/abra"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/063.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/abra">63 - Abra</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/064.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/abra"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/064.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/alakazam">65 - Alakazam</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/065.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/alakazam"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/065.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/machop">66 - Machop</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/066.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/machop"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/066.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/machoke">67 - Machoke</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/067.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/machoke"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/067.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/machamp">68 - Machamp</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/068.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/machamp"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/068.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/bellsprout">69 - Bellsprout</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/069.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/bellsprout"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/069.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/weepinbell">70 - Weepinbell</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/070.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/weepinbell"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/070.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/victreebel">71 - Victreebel</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/071.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/victreebel"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/071.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/tentacool">72 - Tentacool</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/072.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/tentacool"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/072.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/tentacruel">73 - Tentacruel</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/073.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/tentacruel"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/073.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/geodude">74 - Geodude</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/074.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/geodude"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/074.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/graveler">75 - Graveler</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/075.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/graveler"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/075.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/golem">76 - Golem</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/076.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/golem"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/076.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/ponyta">77 - Ponyta</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/077.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/ponyta"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/077.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/rapidash">78 - Rapidash</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/078.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/rapidash"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/078.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/slowpoke">79 - Slowpoke</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/079.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/slowpoke"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/079.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/slowbro">80 - Slowbro</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/080.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/slowbro"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/080.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/magnemite">81 - Magnemite</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/081.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/magnemite"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/081.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/magneton">82 - Magneton</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/082.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/magneton"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/082.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/farfetchd">83 - Farfetch&#39;d</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/083.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/farfetchd"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/083.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/doduo">84 - Doduo</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/084.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/doduo"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/084.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/dodrio">85 - Dodrio</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/085.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/dodrio"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/085.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/seel">86 - Seel</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/086.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/seel"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/086.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/dewgong">87 - Dewgong</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/087.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/dewgong"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/087.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/grimer">88 - Grimer</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/088.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/grimer"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/088.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/muk">89 - Muk</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/089.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/muk"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/089.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/shellder">90 - Shellder</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/090.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/shellder"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/090.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/cloyster">91 - Cloyster</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/091.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/cloyster"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/091.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/gastly">92 - Gastly</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/092.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/gastly"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/092.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/haunter">93 - Haunter</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/093.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/haunter"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/093.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/gengar">94 - Gengar</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/094.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/gengar"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/094.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/onix">95 - Onix</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/095.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/onix"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/095.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/drowzee">96 - Drowzee</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/096.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/drowzee"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/096.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/hypno">97 - Hypno</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/097.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/hypno"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/097.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/krabby">98 - Krabby</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/098.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/krabby"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/098.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/kingler">99 - Kingler</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/099.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/kingler"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/099.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/voltorb">100 - Voltorb</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/100.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/voltorb"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/100.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/electrode">101 - Electrode</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/101.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/electrode"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/101.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/exeggcute">102 - Exeggcute</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/102.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/exeggcute"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/102.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/exeggutor">103 - Exeggutor</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/103.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/exeggutor"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/103.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/cubone">104 - Cubone</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/104.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/cubone"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/104.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/marowak">105 - Marowak</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/105.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/marowak"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/105.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/hitmonlee">106 - Hitmonlee</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/106.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/hitmonlee"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/106.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/hitmonchan">107 - Hitmonchan</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/107.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/hitmonchan"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/107.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/lickitung">108 - Lickitung</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/108.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/lickitung"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/108.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/koffing">109 - Koffing</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/109.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/koffing"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/109.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/weezing">110 - Weezing</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/110.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/weezing"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/110.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/rhyhorn">111 - Rhyhorn</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/111.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/rhyhorn"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/111.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/rhyhorn">112 - Rhydon</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/112.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/rhyhorn"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/112.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/chansey">113 - Chansey</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/113.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/chansey"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/113.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/tangela">114 - Tangela</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/114.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/tangela"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/114.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/kangaskhan">115 - Kangaskhan</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/115.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/kangaskhan"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/115.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/horsea">116 - Horsea</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/116.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/horsea"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/116.png" alt=""></a>
             </div>
             
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/seadra">117 - Seadra</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/117.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/seadra"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/117.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/goldeen">118 - Goldeen</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/118.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/goldeen"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/118.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/seaking">119 - Seaking</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/119.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/seaking"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/119.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/staryu">120 - Staryu</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/120.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/staryu"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/120.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/starmie">121 - Starmie</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/121.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/starmie"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/121.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/mr-mime">122 - Mr. Mime</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/122.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/mr-mime"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/122.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/scyther">123 - Scyther</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/123.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/mr-mime"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/123.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/jynx">124 - Jynx</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/124.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/jynx"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/124.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/electabuzz">125 - Electabuzz</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/125.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/jynx"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/125.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/magmar">126 - Magmar</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/126.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/magmar"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/126.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/pinsir">127 - Pinsir</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/127.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/pinsir"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/127.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/tauros">128 - Tauros</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/128.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/tauros"> <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/128.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
@@ -680,118 +726,119 @@
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/gyarados">130 - Gyarados</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/130.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/gyarados"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/130.png" alt=""></a>
             </div>
 
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/lapras">131 - Lapras</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/131.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/lapras"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/131.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/ditto">132 - Ditto</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/132.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/ditto"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/132.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/eevee">133 - Eevee</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/133.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/eevee"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/133.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/vaporeon">134 - Vaporeon</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/134.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/vaporeon"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/134.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/jolteon">135 - Jolteon</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/135.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/jolteon"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/135.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/flareon">136 - Flareon</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/136.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/flareon"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/136.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/porygon">137 - Porygon</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/137.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/porygon"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/137.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/omanyte">138 - Omanyte</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/138.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/omanyte"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/138.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/omastar">139 - Omastar</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/139.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/omastar"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/139.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/kabuto">140 - Kabuto</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/140.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/kabuto"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/140.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/kabutops">141 - Kabutops</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/141.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/kabutops"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/141.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/aerodactyl">142 - Aerodactyl</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/142.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/aerodactyl"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/142.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/snorlax">143 - Snorlax</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/143.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/snorlax"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/143.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/articuno">144 - Articuno</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/144.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/articuno"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/144.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/zapdos">145 - Zapdos</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/145.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/zapdos"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/145.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/moltres">146 - Moltres</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/146.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/moltres"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/146.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/dratini">147 - Dratini</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/147.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/dratini"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/147.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/dragonair">148 - Dragonair</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/148.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/dragonair"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/148.png" alt=""></a>
             </div>
             
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/dragonite">149 - Dragonite</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/149.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/dragonite"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/149.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/mewtwo">150 - Mewtwo</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/150.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/mewtwo"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/150.png" alt=""></a>
             </div>
 
             <div class="pokedex-box">
                 <li><a href="https://www.pokemon.com/es/pokedex/mew">151 - Mew</a></li>
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/151.png" alt="">
+                <a href="https://www.pokemon.com/es/pokedex/mew"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/151.png" alt=""></a>
             </div>
 
         </div>
 
     </main>
 
+    <script src="../index.js"></script>
 </body>
 </html>
