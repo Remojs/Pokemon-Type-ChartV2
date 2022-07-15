@@ -1,10 +1,11 @@
 body{
     background-image: url(../../img/pokedex/wallp2.png);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        padding: 0.1px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    padding: 0.1px;
 }
+
 
 :root{
     

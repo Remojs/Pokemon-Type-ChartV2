@@ -113,6 +113,3 @@ let rValue = pageList[random];
 function randomType() {
 	location.href = rValue
 }
-
-// Menu Dropdown Pokedex ==============================================================
-

@@ -10,7 +10,7 @@
 body{
     background-image: url(../img/pokedex/wallp.png);
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-size: cover;
         padding: 0.1px;
 }

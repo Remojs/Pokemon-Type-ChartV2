@@ -1,18 +1,19 @@
 body{
-    background-image: url(../../img/pokedex/wallp3.png);
+    background-image: url(../../img/pokedex/wallp5.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
     padding: 0.1px;
 }
 
+
 :root{
     
-    --main-color: #2b8767;
+    --main-color: #4F5F5E;
     --main-color2: #000000;
     --main-color3: #ffffff;
 }
 
 .pokedex-container{
-    grid-template-rows: repeat(34, 1fr);
+    grid-template-rows: repeat(25, 1fr);
 }
