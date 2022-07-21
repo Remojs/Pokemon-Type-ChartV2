@@ -1,4 +1,4 @@
-.acero {
+.acero-bgd {
         background-image: url(../img/wllp/acero.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -6,7 +6,7 @@
         padding: 0.1px;
 }
 
-.agua{
+.agua-bgd{
         background-image: url(../img/wllp/agua.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -14,7 +14,7 @@
         padding: 0.1px;
 }
 
-.bicho{
+.bicho-bgd{
         background-image: url(../img/wllp/bicho.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -22,7 +22,7 @@
         padding: 0.1px;
 }
 
-.dragonB{
+.dragon-bgd{
         background-image: url(../img/wllp/dragon.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -30,7 +30,7 @@
         padding: 0.1px;
 }
 
-.electrico{
+.electrico-bgd{
         background-image: url(../img/wllp/electrico.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -38,7 +38,7 @@
         padding: 0.1px;
 }
 
-.fantasma{
+.fantasma-bgd{
         background-image: url(../img/wllp/fantasma.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -46,7 +46,7 @@
         padding: 0.1px;
 }
 
-.fuego{
+.fuego-bgd{
         background-image: url(../img/wllp/fuego.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -54,7 +54,7 @@
         padding: 0.1px;
 }
 
-.hada{
+.hada-bgd{
         background-image: url(../img/wllp/hada.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -62,7 +62,7 @@
         padding: 0.1px;
 }
 
-.hielo{
+.hielo-bgd{
         background-image: url(../img/wllp/hielo.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -70,7 +70,7 @@
         padding: 0.1px;
 }
 
-.lucha{
+.lucha-bgd{
         background-image: url(../img/wllp/lucha.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -78,7 +78,7 @@
         padding: 0.1px;
 }
 
-.normalB{
+.normal-bgd{
         background-image: url(../img/wllp/normal.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -86,7 +86,7 @@
         padding: 0.1px;
 }
 
-.planta{
+.planta-bgd{
         background-image: url(../img/wllp/planta.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -94,7 +94,7 @@
         padding: 0.1px;
 }
 
-.psiquico{
+.psiquico-bgd{
         background-image: url(../img/wllp/psiquico.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -102,7 +102,7 @@
         padding: 0.1px;
 }
 
-.roca{
+.roca-bgd{
         background-image: url(../img/wllp/roca.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -110,7 +110,7 @@
         padding: 0.1px;
 }
 
-.siniestro{
+.siniestro-bgd{
         background-image: url(../img/wllp/siniestro.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -118,7 +118,7 @@
         padding: 0.1px;
 }
 
-.tierra{
+.tierra-bgd{
         background-image: url(../img/wllp/tierra.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -126,7 +126,7 @@
         padding: 0.1px;
 }
 
-.veneno{
+.veneno-bgd{
         background-image: url(../img/wllp/veneno.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -134,7 +134,7 @@
         padding: 0.1px;
 }
 
-.volador{
+.volador-bgd{
         background-image: url(../img/wllp/volador.png);
         background-repeat: no-repeat;
         background-attachment: fixed;

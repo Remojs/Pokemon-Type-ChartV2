@@ -1,65 +1,6 @@
-.headerPoke{
-    background-color: #e6deee    ;
-}
 
-.footer{
-    background-color:#e6deee   ;  
-}
-
-.name{
-    color: #895979   ;
-}
-
-.ancla:hover {
-	color: #895979   ; 
-
-}
-
-.ancla:visited {
-	color: #895979  ;
-}
-
-.anclaSocial{
-    color: #895979   ;
-}
-
-.anclaSocial:hover {
-	color: #895979   ;  
-}
-
-.anclaSocial:visited {
-	color: #895979  ;
-}
-
-.footer-anchor{
-    color: #895979   ;
-}
-
-.footer-anchor:hover {
-	color: #895979   ; 
-}
-
-.footer-anchor:visited {
-	color: #895979   ;
-}
-
-.tituloMain{
-    color: #e6deee    ;
-}
-
-.nameDivType{
-    color: #ff6675 ;
-}
-
-.nameDiv{
-    background-color: #e6deee     ;
-    border: 3px solid #ff6675 ;
-}
-
-.footer-nt{
-    border-right: 3px solid #895979 ;
-}
-
-.footer-pv{
-    border-left: 3px solid  #895979;
+:root{
+    --main-color: #ff6675;
+    --main-color4: #e6deee;
+    --main-color4b: #ff6675;
 }

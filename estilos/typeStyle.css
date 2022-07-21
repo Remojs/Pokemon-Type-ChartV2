@@ -8,27 +8,17 @@ html, body {
 }
 
 
-.headerPoke{
-        background-color: rgb(245, 245, 220);
-        top: 0px;
-        width: 1360px;
-        height: -50px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	font-size: 35px;
-	text-align: center;
-	display: flex;
-}
+
+
 
 .name {
 	padding-left: 15px;
-	color: #000000;
+	color: var(--main-color2);
 	text-decoration: none;
 
 }
 
 .imgHeader{
-        padding-top: 33px;
-        padding-left: 3px;
 	width:75px;
 	height:85px;
 }
@@ -157,7 +147,7 @@ html, body {
 
 .footer-elementContainer{
         display: flex;  
-        align-items: center;
+        align-items: center; 
 }
 
 .footer-bth{
@@ -196,6 +186,39 @@ html, body {
         margin-left: 15px;
         margin-right: 15px;
 }
+
+/* -- COLORS -- */
+
+
+.name{
+        color: var(--main-color2) ;
+}
+
+.tituloMain{
+        color: var(--main-color4);
+}
+
+.anclaSocial{
+        color: var(--main-color2) ;
+}
+
+.anclaSocial:hover {
+        color: var(--main-color2) ;  
+}
+
+.anclaSocial:visited {
+        color: var(--main-color2) ;
+}
+
+.nameDivType{
+        color: var(--main-color4b) ;
+}
+
+.nameDiv{
+        background-color: var(--main-color2)     ;
+        border: 3px solid var(--main-color4b) ;
+}
+
 
 
 

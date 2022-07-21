@@ -1,65 +1,7 @@
-.headerPoke{
-    background-color: #241636  ;
-}
 
-.footer{
-    background-color:#241636 ;  
-}
+:root{
+    --main-color: #006fc9;
+    --main-color4: #d9c4d0;
+    --main-color4b: #006fc9;
+} 
 
-.name{
-    color: #e70e6f ;
-}
-
-.ancla:hover {
-	color: #e70e6f ; 
-
-}
-
-.ancla:visited {
-	color: #e70e6f ;
-}
-
-.anclaSocial{
-    color: #e70e6f ;
-}
-
-.anclaSocial:hover {
-	color: #e70e6f ;  
-}
-
-.anclaSocial:visited {
-	color: #e70e6f ;
-}
-
-.footer-anchor{
-    color: #e70e6f ;
-}
-
-.footer-anchor:hover {
-	color: #e70e6f ; 
-}
-
-.footer-anchor:visited {
-	color: #e70e6f ;
-}
-
-.tituloMain{
-    color: #d9c4d0 ;
-}
-
-.nameDivType{
-    color: #006fc9 ;
-}
-
-.nameDiv{
-    background-color: #241636  ;
-    border: 3px solid #006fc9 ;
-}
-
-.footer-nt{
-    border-right: 3px solid #e70e6f ;
-}
-
-.footer-pv{
-    border-left: 3px solid #e70e6f ;
-}
