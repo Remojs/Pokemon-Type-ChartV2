@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 
 .name-container{
@@ -47,6 +48,7 @@
     font-size: 24px;
     margin-top: 50px;
     font-family: 'Staatliches', cursive;
+    transition: all .2s ease ;
 }
 
 
@@ -54,6 +56,7 @@
     background-color: var(--main-color2);
     padding: 6px 30px 6px 30px;
     margin-right: 10px;
+    
 }
 
 .menu-items{
@@ -63,6 +66,7 @@
     background-color: var(--main-color2);
     cursor: pointer;
     padding: 10px 15px;
+    
 }
 
 .menu-items:hover{
@@ -73,6 +77,7 @@
     display:none;
     position: absolute;
     min-width: 100px;
+    z-index: 100;
 }
 
 .cm-pokedex{

@@ -253,3 +253,15 @@ body{
 	color: #fff;
 	text-decoration: none 
 }
+
+
+/* CARROUSEL SLIDE */
+
+.carousel{
+	height: 700px;
+	margin-top: 200px;
+}
+
+.carousel-inner{
+	height: 700px;
+}

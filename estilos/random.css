@@ -1,0 +1,62 @@
+body{
+    background-image: url(../img/pokedex/wallpr.png);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        padding: 0.1px;
+}
+
+.pokedex-box{
+    display: none;
+}
+
+.pokedex-view{
+    display: flex;
+    }
+
+.pokedex-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin-right:10px;
+    margin-left: 3px;
+}
+
+    main div div{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #ffffff;
+    margin: 30px 30px 20px 12px;
+    font-family: 'Staatliches', cursive;
+    background-color: #2d4269;
+    border-radius: 5%;
+    position: relative;
+    z-index: 0;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    overflow: hidden;
+    padding: 2rem;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+main div div:hover{
+    border: 4px solid rgb(214, 207, 207);
+    transition: 0.3s;
+}
+
+main div div :hover{
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+main div div li a{
+    color: #c1d4f8;
+    font-size: 25px;
+}
+
+
