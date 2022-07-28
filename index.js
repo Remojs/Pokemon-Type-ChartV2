@@ -126,14 +126,64 @@ let pokedexArray = [ //1th Gen
 	'shelgon', 'salamence', 'beldum', 'metang', 'metagross', 'regirock', 'regice', 'registeel', 'latias', 'latios',
 	'kyogre', 'groudon', 'rayquaza', 'jirachi', 'deoxys', 
 	//4th Gen
-
+	'turtwig', 'grotle', 'torterra', 'chimchar', 'monferno', 'infernape', 'piplup', 'prinplup', 'empoleon', 'starly',
+	'staraptor', 'staravia', 'bidoof', 'bibarel', 'kricketot', 'kricketune', 'shinx', 'luxio', 'luxray', 'budew',
+	'roserade', 'cranidos', 'rampardos', 'shelgon', 'bastiodon', 'burmy', 'wormadam', 'mothim', 'combee', 'vespiqueen',
+	'pachirisu', 'buizel', 'floatzel', 'cherubi', 'cherrim', 'shellos', 'gastrodon', 'ambipom', 'drifloon', 'drifblim',
+	'buneary', 'lopunny', 'mismagius', 'honchkrow', 'glameow', 'purugly', 'chingling', 'stunky', 'skuntank', 'bronzor',
+	'bronzong', 'bonsly', 'mimejr', 'happiny', 'chatot', 'spiritomb', 'gible', 'gabite', 'garchomp', 'munchlax',
+	'riolu', 'lucario', 'hippopotas', 'hippowdon', 'skorupi', 'drapion', 'croagunk', 'toxicroak', 'carnivine', 'finneon',
+	'lumineon', 'mantine', 'snover', 'abomasnow', 'weavile', 'magnezone', 'lickilicky', 'rhyperior', 'tangrowth', 'electrivire',
+	'magmortar', 'togekiss', 'yanmega', 'leafeon', 'glaceon', 'gliscor', 'mamoswine', 'porygonz', 'gallade', 'probopass',
+	'dusknoir', 'froslass', 'rotom', 'uxie', 'mesprit', 'azelf', 'dialga', 'palkia', 'heatran', 'regigigas',
+	'giratina', 'cresselia', 'phione', 'manaphy', 'darkrai', 'shaymin', 'arceus', 'victini',  
 	//5th Gen
-
+	'snivy', 'servine', 'serperior', 'tepig', 'pignite', 'emboar', 'oshawott', 'dewott', 'samurott', 'patrat',
+	'watchog', 'lillipup', 'herdier', 'stoutland', 'purrloin', 'liepard', 'pansage', 'simisage', 'pansear', 'simisear',
+	'panpour', 'simipour', 'munna', 'musharna', 'pidove', 'tranquill', 'unfezant', 'blitzle', 'zebstrika', 'roggenrola',
+	'boldore', 'gigalith', 'woobat', 'swoobat', 'drilbur', 'excadrill', 'audino', 'timburr', 'gurdurr', 'conkeldurr',
+	'tympole', 'palpitoad', 'seismitoad', 'throh', 'sawk', 'sewaddle', 'swadlon', 'leavanny', 'venipede', 'whirlipede',
+	'scolipede', 'cottonee', 'whimsicott', 'petilil', 'lilligant', 'basculin', 'sandile', 'krokorok', 'krookodile', 'darumaka',
+	'darmanitan', 'maractus', 'dwebble', 'crustle', 'scraggy', 'scrafty', 'sigilyph', 'yamask', 'cofagrigus', 'tirtouga',
+	'carracosta', 'archen', 'archeops', 'trubbish', 'garbodor', 'zorua', 'zoroark', 'minccino', 'cinccino', 'gothita',
+	'gothorita', 'gothitelle', 'solosis', 'duosion', 'reuniclus', 'ducklett', 'swanna', 'vanillite', 'vanillish', 'vanilluxe',
+	'deerling', 'sawsbuck', 'emolga', 'karrablast', 'escavalier', 'foongus', 'amoonguss', 'frillish', 'jellicent', 'alomomola',
+	'joltik', 'galvantula', 'ferroseed', 'ferrothorn', 'klink', 'klang', 'klinklang', 'tynamo', 'eelektrik', 'eelektross',
+	'elgyem', 'beheeyem', 'litwick', 'lampent', 'chandelure', 'axew', 'fraxure', 'haxorus', 'cubchoo', 'beartic',
+	'cryogonal', 'shelmet', 'accelgor', 'stunfisk', 'mienfoo', 'mienshao', 'druddigon', 'golett', 'golurk', 'pawniard',
+	'bisharp', 'bouffalant', 'rufflet', 'braviary', 'vullaby', 'mandibuzz', 'heatmor', 'larvesta', 'volcarona', 'deino',
+	'zweilous', 'hydreigon', 'durant', 'cobalion', 'terrakion', 'virizion', 'tornadus', 'thundurus', 'reshiram', 'zekrom',
+	'landorus', 'kyurem', 'keldeo', 'meloetta', 'genesect',
 	//6th Gen
-
+	'chespin', 'quilladin', 'chesnaught', 'fennekin', 'braixen', 'delphox', 'froakie', 'frogadier', 'greninja', 'bunnelby',
+	'diggersby', 'fletchling', 'fletchinder', 'talonflame', 'scatterbug', 'spewpa', 'vivillon', 'litleo', 'pyroar', 'flabebe',
+	'floette', 'florges', 'skiddo', 'gogoat', 'pancham', 'pangoro', 'furfrou', 'espurr', 'meowstic', 'honedge',
+	'doublade', 'aegislash', 'spritzee', 'aromatisse', 'swirlix', 'slurpuff', 'inkay', 'malamar', 'binacle', 'barbaracle',
+	'skrelp', 'dragalge', 'clauncher', 'clawitzer', 'helilisk', 'helioptile', 'tyrunt', 'tyrantrum', 'amaura', 'aurorus',
+	'sylveon', 'hawlucha', 'dedenne', 'carbink', 'goomy', 'sliggoo', 'goodra', 'klefki', 'phantump', 'trevenant',
+	'pumkaboo', 'gourgeist', 'bergmite', 'avalugg', 'noibat', 'noivern', 'xerneas', 'yveltal', 'zygarde', 'diancie',
+	'hoopa', 'volcanion',
 	//7th Gen
-
+	'rowlet', 'dartrix', 'decidueye', 'litten', 'torracat', 'incineroar', 'popplio', 'brionne', 'primarina', 'pikipek',
+	'trumbeak', 'toucannon', 'yungoos', 'gumshoos', 'grubbin', 'charjabug', 'vikabolt', 'crabrawler', 'crabominable', 'oricorio',
+	'cutiefly', 'ribombee', 'rockruff', 'lycanrock', 'wishiwashi', 'mareanie', 'toxapek', 'mudbray', 'mudsdale', 'dewpider',
+	'araquanid', 'fomantis', 'lurantis', 'morelull', 'shiinotic', 'salandit', 'salazzle', 'stufful', 'bewear', 'bounsweet',
+	'steenee', 'tsareena', 'comfey', 'oranguru', 'passimian', 'wimpod', 'golisopod', 'sandygast', 'palossand', 'pyukumuku',
+	'codigocero', 'silvally', 'minior', 'komala', 'turtonator', 'togedemaru', 'mimikyu', 'bruxish', 'drampa', 'dhelmise',
+	'jangmoo', 'hakamoo', 'kommoo', 'tapukoko', 'tapulele', 'tapubulu', 'tapufini', 'cosmog', 'cosmoem', 'solgaleo',
+	'lunala', 'nihilego', 'buzzwole', 'pheromosa', 'xurkitree', 'celesteela', 'kartana', 'guzzlord', 'necrozma', 'magearna',
+	'marshadow', 'poipole', 'naganadel', 'stakataka', 'blacephalon', 'zeraora', 'meltan', 'melmetal',
 	//8th Gen
+	'grookey', 'thwackey', 'rillaboom', 'scorbunny', 'raboot', 'cinderance', 'sobble', 'drizzile', 'inteleon', 'skwovet',
+	'greedent', 'rookidee', 'corvisquire', 'corviknight', 'blipbug', 'dottler', 'orbeetle', 'nickit', 'thievul', 'gossifleur',
+	'eldegoss', 'wooloo', 'dubwool', 'chewtle', 'drednaw', 'yamper', 'boltund', 'rolycoly', 'carkol', 'coalossal',
+	'applin', 'flapple', 'appletun', 'silicobra', 'sandaconda', 'cramorant', 'arrokuda', 'barraskewda', 'toxel', 'toxtricity',
+	'sizzlipede', 'centiskorch', 'clobbopus', 'gapploct', 'sinistea', 'polteageist', 'hatenna', 'hattrem', 'hatterene', 'impidimp',
+	'morgrem', 'grimmsnarl', 'obstagoon', 'perrserker', 'cursola', 'sirfetchd', 'mrrime', 'runerigus', 'milcery', 'alcremie',
+	'falinks', 'pincurchin', 'snom', 'frossmoth', 'stonjourner', 'eiscue', 'indeedee', 'morpeko', 'cufant', 'copperajah',
+	'dracozolt', 'arctozolt', 'dracovish', 'arctovish', 'duraludon', 'dreepy', 'drakloak', 'dragapult', 'zacian', 'zamazenta',
+	'eternatus', 'kubfu', 'urshifu', 'zarude', 'regieleki', 'regidrago', 'glastrier', 'spectrier', 'calyrex', 'wyrdeer',
+	'kleavor', 'ursaluna', 'basculegion', 'sneasler', 'overqwil', 'enamorus'
 ];
 
 // function created to not repeat the pokemon in the randomizer cycle
@@ -176,7 +226,7 @@ console.log(rpoke1 + ' ' + rpoke2 + ' ' + rpoke3 + ' ' + rpoke4 + ' ' + rpoke5 +
 
 // we give a class to the random pokemon so that they can be seen on the page
 
-var poke1 = document.getElementById(rpoke1);
+let poke1 = document.getElementById(rpoke1);
     poke1.className += "pokedex-view";
 
 let poke2 = document.getElementById(rpoke2);
@@ -193,3 +243,11 @@ let poke5 = document.getElementById(rpoke5);
 
 let poke6 = document.getElementById(rpoke6);
     poke6.className += "pokedex-view";
+
+// Reload Random Pokedex
+
+let refresh = document.getElementById('recargar');
+refresh.addEventListener('click', _ => {
+            location.reload();
+})
+
