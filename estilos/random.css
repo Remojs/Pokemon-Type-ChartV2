@@ -1,76 +1,132 @@
-body{
-    background-image: url(../img/pokedex/wallpr.png);
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-size: cover;
-        padding: 0.1px;
-}
+.pokedex-box {display: none;}
+.pokedex-view{display: flex;}
 
-.pokedex-box{
-    display: none;
-}
-
-.pokedex-view{
-    display: flex;
-    }
+/* Estilo Pagina */
 
 .pokedex-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
     margin-left: 140px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
-    main div div{
+/*Estilos de las Pokedex-Box*/
+
+main div div{
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    margin: 20px 20px 20px 12px;
     font-family: 'Staatliches', cursive;
-    background-color: #2d4269;
     border-radius: 10%;
     position: relative;
     width: 500px;
     height: 400px;
-    overflow: hidden;
     padding: 3rem;
     box-sizing: border-box;
-    z-index: 10;
+    overflow: hidden;
+    z-index: 200;
+    margin-top: 18px;
+    margin-bottom: 20px;
 }
 
-div a img{
+.pokemon-data{
+    padding-top: 80px;
+    margin-bottom: -70px;
+}
+
+/* Fondo */
+
+body{
+    background-image: url(../img/pokedex/wallpr.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Imagenes */
+
+.pImg{
     width: 250px;
     height: 250px;
+    margin-bottom: 20px;
+    display: flex;
 }
 
 
-main div div:hover{
-    border: 4px solid rgb(214, 207, 207);
-    transition: 0.3s;
-}
+/* Nombres Pokemon */
 
-main div div :hover{
-    margin-bottom: 10px;
-    transition: 0.3s;
-}
-
-main div div li a{
+.pname{
     color: #c1d4f8;
-    font-size: 25px;
+    font-size: 30px;
 }
 
-.fix{
-    width: 215px;
-    height: 215px;
+.pname:hover{
+    color: #b7d0ff;
+    text-decoration: none;
 }
+
+.pname:visited{
+    color: #c1d4f8;
+    text-decoration: none;
+}
+
+/*Numeros Pokedex*/
+
+.pnumber{
+    filter: opacity(.5);
+    font-size: 150px;
+    padding-right: 300px;
+    padding-bottom: 30px;
+    position: absolute;
+    z-index: 100;
+}
+
+.fire .pnumber{color: #c53626;}
+.water .pnumber{color: #1187b7;}
+.steel .pnumber{color: #5c6a70;}
+.rock .pnumber{color: #585048;}
+.psychic .pnumber{color: #60396e;}
+.poison .pnumber{color: #6e4259;}
+.normal .pnumber{color: #8c8662;}
+.ice .pnumber{color: #72acbe;}
+.ghost .pnumber{color: #324474;}
+.ground .pnumber{color: #7e5228;}
+.grass .pnumber{color: #67991C;}
+.fly .pnumber{color: #189abf;}
+.fight .pnumber{color: #a1224d;}
+.fairy .pnumber{color: #bf407e;}
+.electric .pnumber{color: #cbb929;}
+.dragon .pnumber{color: #004c8a;}
+.dark .pnumber{color: #152a47;}
+.bug .pnumber{color: #1e5e2e;}
+
+/* Animaciones */
+
+.pokedex-box:hover{
+    border: #ffffff 4px solid;
+}
+
+.pImg:hover{
+    margin-bottom: 40px;
+    transition: 0.4s;
+}
+
+/*Arreglos de Imagenes*/
+
+.fix{ width: 270px; height: 270px;}
+
+.fix2{ height: 240px; width: 240px; padding-bottom: 30px;}
+
+/* Footer */
 
 .rdm-foot{
     background-color: #000;
     width: 100%;
     height: 80px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
+
+/* Boton Footer */
 
 .reload{
     width: 110px;
@@ -86,145 +142,23 @@ main div div li a{
         cursor: pointer;
 }
 
+/*Fondos de Pokemon Boxes*/
 
-.fire{
-        background-image: url(../img/pokedex/pokeTypeWllp-fire.jpg);
-            background-repeat: no-repeat;
-            background-attachment: scroll;
-            background-size: cover;
-            padding: 0.1px;
-}
-
-.water{
-    background-image: url(../img/pokedex/pokeTypeWllp-water.jpg);
-        background-repeat: no-repeat;
-        padding: 0.1px;
-}
-
-.steel{
-    background-image: url(../img/pokedex/pokeTypeWllp-steel.png);
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-size: cover;
-        padding: 0.1px;
-}
-
-.rock{
-    background-image: url(../img/pokedex/pokeTypeWllp-rock.png);
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-size: cover;
-        padding: 0.1px;
-}
-
-.psychic{
-    background-image: url(../img/pokedex/pokeTypeWllp-psychic.jpg);
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-size: cover;
-        padding: 0.1px;
-}
-
-.poison{
-    background-image: url(../img/pokedex/pokeTypeWllp-poison.png);
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-size: cover;
-        padding: 0.1px;
-}
-
-.normal{
-    background-image: url(../img/pokedex/pokeTypeWllp-normal.jpg);
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-size: cover;
-        padding: 0.1px;
-}
-
-.ice{
-    background-image: url(../img/pokedex/pokeTypeWllp-ice.png);
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-size: cover;
-        padding: 0.1px;
-}
-
-.ghost{
-    background-image: url(../img/pokedex/pokeTypeWllp-ghost.jpg);
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-size: cover;
-        padding: 0.1px;
-}
-
-.ground{
-    background-image: url(../img/pokedex/pokeTypeWllp-ground.png);
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-size: cover;
-        padding: 0.1px;
-}
-
-.grass{
-    background-image: url(../img/pokedex/pokeTypeWllp-grass.jpg);
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-size: cover;
-        padding: 0.1px;
-}
-
-.fly{
-    background-image: url(../img/pokedex/pokeTypeWllp-fly.png);
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-size: cover;
-        padding: 0.1px;
-}
-
-.fight{
-    background-image: url(../img/pokedex/pokeTypeWllp-fight.jpg);
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-size: cover;
-        padding: 0.1px;
-}
-
-.fairy{
-    background-image: url(../img/pokedex/pokeTypeWllp-fairy.png);
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-size: cover;
-        padding: 0.1px;
-}
-
-.electric{
-    background-image: url(../img/pokedex/pokeTypeWllp-electric.jpg);
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-size: cover;
-        padding: 0.1px;
-}
-
-.dragon{
-    background-image: url(../img/pokedex/pokeTypeWllp-dragon.png);
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-size: cover;
-        padding: 0.1px;
-}
-
-.dark{
-    background-image: url(../img/pokedex/pokeTypeWllp-dark.png);
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-size: cover;
-        padding: 0.1px;
-}
-
-.bug{
-    background-image: url(../img/pokedex/pokeTypeWllp-bug.png);
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-size: cover;
-        padding: 0.1px;
-}
+.fire{ background-image: url(../img/pokedex/pokeTypeWllp-fire.jpg); }
+.water{ background-image: url(../img/pokedex/pokeTypeWllp-water.jpg); }
+.steel{ background-image: url(../img/pokedex/pokeTypeWllp-steel.png); }
+.rock{ background-image: url(../img/pokedex/pokeTypeWllp-rock.png); }
+.psychic{ background-image: url(../img/pokedex/pokeTypeWllp-psychic.jpg); }
+.poison{ background-image: url(../img/pokedex/pokeTypeWllp-poison.png); }
+.normal{ background-image: url(../img/pokedex/pokeTypeWllp-normal.jpg); }
+.ice{ background-image: url(../img/pokedex/pokeTypeWllp-ice.png); }
+.ghost{ background-image: url(../img/pokedex/pokeTypeWllp-ghost.jpg); }
+.ground{ background-image: url(../img/pokedex/pokeTypeWllp-ground.png); }
+.grass{ background-image: url(../img/pokedex/pokeTypeWllp-grass.jpg); }
+.fly{ background-image: url(../img/pokedex/pokeTypeWllp-fly.png); }
+.fight{ background-image: url(../img/pokedex/pokeTypeWllp-fight.jpg); }
+.fairy{ background-image: url(../img/pokedex/pokeTypeWllp-fairy.png); }
+.electric{ background-image: url(../img/pokedex/pokeTypeWllp-electric.jpg); }
+.dragon{ background-image: url(../img/pokedex/pokeTypeWllp-dragon.png); }
+.dark{ background-image: url(../img/pokedex/pokeTypeWllp-dark.png); }
+.bug{ background-image: url(../img/pokedex/pokeTypeWllp-bug.png); }
